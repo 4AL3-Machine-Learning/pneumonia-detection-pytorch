@@ -1,0 +1,101 @@
+# -------------------------------
+# Python & Jupyter
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+.env
+.venv
+venv/
+env/
+.idea/
+.vscode/
+*.log
+
+# -------------------------------
+# Data Files (Do NOT push!)
+# -------------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.npy
+*.npz
+*.pkl
+*.h5
+*.zip
+*.tar
+*.gz
+*.pt
+*.pth
+
+# -------------------------------
+# Model Outputs & Experiments
+# -------------------------------
+outputs/
+runs/
+results/
+checkpoints/
+models/
+wandb/
+lightning_logs/
+*.ckpt
+
+# -------------------------------
+# Figures / Reports / Exports
+# -------------------------------
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.html
+
+# -------------------------------
+# OS / System files
+# -------------------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# -------------------------------
+# Notebooks auto-save / tmp
+# -------------------------------
+*.autosave.ipynb
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# -------------------------------
+# Virtual environments / Build artifacts
+# -------------------------------
+build/
+dist/
+.cache/
+.pytest_cache/
+__pycache__/
+.mypy_cache/
+coverage/
+*.egg
+*.egg-info/
+MANIFEST
+
+# -------------------------------
+# Secrets / Configs
+# -------------------------------
+*.env
+secrets/
+credentials.json
+token.json
+config.yaml
+
+train/
+val/
+test/

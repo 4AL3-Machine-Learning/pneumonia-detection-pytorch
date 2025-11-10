@@ -1,0 +1,4 @@
+Model,Validation Accuracy,Test Accuracy,F1 Score (Test)
+Logistic Regression,0.7997,0.8125,0.8421
+SVM (RBF Kernel),0.8237,0.75,0.8
+Feedforward NN (PyTorch),0.7099,0.5625,0.6957
